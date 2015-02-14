@@ -4,7 +4,6 @@ $con=mysql_connect("localhost","root","") or die(mysql_error());
 mysql_select_db("web")  or die(mysql_error());
 if (!empty($_FILES["gambar"]["tmp_name"]))
 {
-
 	$categori=$_POST['id_category'];
 	$judul=$_POST['judul_post'];
 	$isi=$_POST['isi_post'];
