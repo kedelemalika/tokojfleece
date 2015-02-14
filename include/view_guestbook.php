@@ -36,10 +36,10 @@
 		$c = $b + 1;
 		for($i = 1; $i <= $c; $i++) {
 			echo '<li class="active"><a style="text-decoration:none;"';
-			if($_GET['guest'] == $i) {
+			if($p == $i) {
 				echo 'color:red';
 			}
-			echo '" href="?page=guest&p=' . $i . '">' . $i . '</a></li> ';
+			echo '" href="?page=guestbook&p=' . $i . '">' . $i . '</a></li> ';
 		}
 		echo '</ul></center>';
 	}
