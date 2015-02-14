@@ -1,12 +1,14 @@
 <?php
 //paging guestbook
 	$batas = 4;
-	if ($_GET['page']=="guest" && !empty($_GET['p'])) {
-		$halam = $_GET['p'] - 1;
+	$page = isset($_GET['page']) ? $_GET['page'] : "";
+	$p = isset($_GET['p']) ? $_GET['p'] : 0;
+	if ($page=="guest" && $p!==0) {
+		$halam = $p - 1;
 		$mulai = $batas * $halam;
-	} else if ($_GET['page']=="guest" and $_GET['p'] == 1) {
+	} else if ($page=="guest" and $p == 1) {
 		$mulai = 0;
-	} else if ($_GET['page']=="guest" and empty($_GET['p'])) {
+	} else {
 		$mulai = 0;
 	}
 ?>
