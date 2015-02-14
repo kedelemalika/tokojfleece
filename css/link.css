@@ -1,0 +1,20 @@
+/* CSS Document */
+a.ruslan {
+	color:#ccc;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #000,0 0 0px #000,0 0 0px #000,0 0 0px #000;
+	-webkit-transition:all .5s ease-out;
+	-moz-transition:all .5s ease-out;
+	-o-transition:all .5s ease-out;
+	trasition:all .5s ease-out;
+
+}
+a.ruslan:hover {
+	color:#fff;
+	text-shadow:
+	0px 1px 0px #FF00FF,
+	0px 0px 3px #FF00FF,
+	0px 0px 5px #FF00FF,
+	0px 0px 30px #FF00FF,
+	0px 3px 50px #FF00FF;
+

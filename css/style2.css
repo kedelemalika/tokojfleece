@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+.search-button {
+	background:blue;
+	box-shadow:1px 1px 2px #333;
+	border:1px solid #ccc;
+	border-radius:4px;
+	}
+.search-button:hover {
+	background:white;
+	box-shadow:1px 1px 2px #333;
+	border:1px solid #ccc;
+	border-radius:4px;
+	}
+.search-input {
+	background:#fff;
+	box-shadow:1px 1px 2px #333;
+	border:1px solid #ccc;
+	border-radius:4px;
+	}
+.search-input:hover {
+	background:#ffff99;
+	box-shadow:1px 1px 2px #333;
+	border:1px solid #ccc;
+	border-radius:4px;
+	}
+.search-input:focus {
+	background:#ffff99;
+	box-shadow:1px 1px 2px #333;
+	border:1px solid #ccc;
+	border-radius:4px;
+	}
